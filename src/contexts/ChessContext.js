@@ -57,7 +57,7 @@ function ChessProvider({children}){
       formData.append("filename", "image.png");
 
       const response = await fetch(
-        "https://chess-yarc62mhna-ew.a.run.app/upload",
+        "https://chess-fzr7xt45uq-ew.a.run.app/upload",
         {
           method: "POST",
           body: formData,
