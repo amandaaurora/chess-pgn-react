@@ -1,0 +1,180 @@
+[debug] [2023-09-19T12:55:43.112Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T12:55:43.116Z] Command:       /root/.nvm/versions/node/v18.17.1/bin/node /root/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2023-09-19T12:55:43.117Z] CLI Version:   12.5.4
+[debug] [2023-09-19T12:55:43.118Z] Platform:      linux
+[debug] [2023-09-19T12:55:43.118Z] Node Version:  v18.17.1
+[debug] [2023-09-19T12:55:43.119Z] Time:          Tue Sep 19 2023 14:55:43 GMT+0200 (Central European Summer Time)
+[debug] [2023-09-19T12:55:43.119Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T12:55:43.125Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-19T12:55:43.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T12:55:43.318Z] > authorizing via signed-in user (amandeaurora@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /root/code/amandaaurora/chess-pgn-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-09-19T12:55:43.628Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-09-19T12:55:43.629Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-19T12:55:53.068Z] Using project from CLI flag: chess-pgn-react
+[debug] [2023-09-19T12:55:53.069Z] > refreshing access token with scopes: []
+[debug] [2023-09-19T12:55:53.070Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-19T12:55:53.070Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-19T12:55:53.221Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-09-19T12:55:53.222Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-19T12:55:53.252Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react [none]
+[debug] [2023-09-19T12:55:53.526Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react 403
+[debug] [2023-09-19T12:55:53.526Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-19T12:55:53.527Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-19T12:55:53.627Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project chess-pgn-react. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-09-19T12:57:32.708Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T12:57:32.712Z] Command:       /root/.nvm/versions/node/v18.17.1/bin/node /root/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2023-09-19T12:57:32.713Z] CLI Version:   12.5.4
+[debug] [2023-09-19T12:57:32.714Z] Platform:      linux
+[debug] [2023-09-19T12:57:32.715Z] Node Version:  v18.17.1
+[debug] [2023-09-19T12:57:32.716Z] Time:          Tue Sep 19 2023 14:57:32 GMT+0200 (Central European Summer Time)
+[debug] [2023-09-19T12:57:32.716Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T12:57:32.857Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T12:57:32.859Z] > authorizing via signed-in user (amandeaurora@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /root/code/amandaaurora/chess-pgn-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-19T12:57:36.244Z] Using project from CLI flag: chess-pgn-react
+[debug] [2023-09-19T12:57:36.247Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react [none]
+[debug] [2023-09-19T12:57:36.628Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react 403
+[debug] [2023-09-19T12:57:36.629Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-19T12:57:36.629Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-19T12:57:36.728Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project chess-pgn-react. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-09-19T12:58:02.552Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T12:58:02.555Z] Command:       /root/.nvm/versions/node/v18.17.1/bin/node /root/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2023-09-19T12:58:02.556Z] CLI Version:   12.5.4
+[debug] [2023-09-19T12:58:02.557Z] Platform:      linux
+[debug] [2023-09-19T12:58:02.557Z] Node Version:  v18.17.1
+[debug] [2023-09-19T12:58:02.558Z] Time:          Tue Sep 19 2023 14:58:02 GMT+0200 (Central European Summer Time)
+[debug] [2023-09-19T12:58:02.558Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T12:58:02.701Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T12:58:02.702Z] > authorizing via signed-in user (amandeaurora@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /root/code/amandaaurora/chess-pgn-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-19T12:58:33.784Z] Using project from CLI flag: chess-pgn-react
+[debug] [2023-09-19T12:58:33.788Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react [none]
+[debug] [2023-09-19T12:58:34.168Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react 403
+[debug] [2023-09-19T12:58:34.169Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-19T12:58:34.170Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-19T12:58:34.274Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project chess-pgn-react. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-09-19T12:59:01.631Z] ----------------------------------------------------------------------
+[debug] [2023-09-19T12:59:01.635Z] Command:       /root/.nvm/versions/node/v18.17.1/bin/node /root/.nvm/versions/node/v18.17.1/bin/firebase init
+[debug] [2023-09-19T12:59:01.636Z] CLI Version:   12.5.4
+[debug] [2023-09-19T12:59:01.637Z] Platform:      linux
+[debug] [2023-09-19T12:59:01.637Z] Node Version:  v18.17.1
+[debug] [2023-09-19T12:59:01.638Z] Time:          Tue Sep 19 2023 14:59:01 GMT+0200 (Central European Summer Time)
+[debug] [2023-09-19T12:59:01.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-19T12:59:01.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-19T12:59:01.770Z] > authorizing via signed-in user (amandeaurora@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /root/code/amandaaurora/chess-pgn-react
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-19T12:59:03.632Z] Using project from CLI flag: chess-pgn-react
+[debug] [2023-09-19T12:59:03.635Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react [none]
+[debug] [2023-09-19T12:59:04.060Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react 403
+[debug] [2023-09-19T12:59:04.060Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chess-pgn-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-19T12:59:04.061Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-19T12:59:04.170Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project chess-pgn-react. Please make sure the project exists and your account has permission to access it.
